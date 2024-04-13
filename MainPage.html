@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External CSS file for styling -->
+    <link rel="stylesheet" href="MainPage.css">
+    <!-- External JavaScript file for functionality -->
+    <script src="MainPage.js"></script>
+    <!-- Title of the webpage -->
+    <title>MainPage</title>
+  </head>
+  <body onload="init()">
+    <!-- Container for the entire page -->
+    <div class="allPage">
+      <!-- Header section -->
+      <div class="header">
+        <h1>Emanuel Malloul</h1>
+      </div>
+      <!-- Main content section -->
+      <div class="main">
+        <!-- Content C -->
+        <div class="contentC">
+          <!-- Input container for user input -->
+          <div class="input-container">
+            <input type="text" id="txtInput" placeholder="Enter a number">
+          </div>
+          <!-- Button container for the Calculate button -->
+          <div class="button-container" id="submitButton">
+            <button type="button" id="cmdCalculate">Calculate</button>
+          </div>
+        </div>
+        <!-- Content D, where the dynamic content will be displayed -->
+        <div class="contentD"></div>
+      </div>
+      <!-- Footer section with external links -->
+      <div class="footer">
+        <a href="https://en.wikipedia.org/wiki/Semiprime" target="_blank">Semi-Prime</a>
+        <a href="https://codehs.com/curriculum/projects/proj-brilliant-java" target="_blank">Brilliant-Number</a>
+      </div>
+    </div>
+  </body>
+</html>

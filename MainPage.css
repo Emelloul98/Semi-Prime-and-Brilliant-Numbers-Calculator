@@ -1,0 +1,184 @@
+/* Styles for the entire page */
+.allPage {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    height: 95vh; /* Set height to 95% of viewport height */
+    margin: 10px; /* Add margin around the entire page */
+}
+
+/* Styles for the header section */
+.header {
+    background-color: #727876; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    height: 20%; /* Set height of header */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-bottom: 15px; /* Add margin below the header */
+}
+
+.header h1 {
+    font-size: 70px;
+    color: white; /* Text color */
+    font-family: cursive; /* Set font family */
+}
+
+/* Styles for the main content section */
+.main {
+    display: flex; /* Use flexbox for layout */
+    height: 60%; /* Set height of main content */
+    margin-bottom: 7px; /* Add margin below the main content */
+}
+
+/* Styles for contentC */
+.contentC {
+    background-color: #bd8c7d; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    width: 35%; /* Set width of contentC */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-right: 7px; /* Add margin on the right side of contentC */
+}
+
+/* Styles for input container and button container */
+.input-container,
+.button-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Styles for text input */
+#txtInput {
+    padding: 10px; /* Add padding inside the text box */
+    border: 1px solid #ccc; /* Add a border with a light gray color */
+    border-radius: 5px; /* Add rounded corners to the text box */
+    outline: none; /* Remove the default outline */
+    font-size: 16px; /* Set the font size */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+#txtInput:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a box shadow on focus */
+}
+
+/* Styles for button container */
+.button-container {
+    margin-top: 5px; /* Add margin on top of the button container */
+}
+
+/* Styles for contentD */
+.contentD {
+    background-color: #664d53; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange items horizontally */
+    width: 65%; /* Set width of contentD */
+    overflow: auto; /* Enable horizontal scrolling */
+    margin-left: 10px; /* Add margin on the left side of contentD */
+}
+
+/* Styles for the footer section */
+.footer {
+    background-color: #727876; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    height: 20%; /* Set height of footer */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: 10px; /* Add margin above the footer */
+}
+
+/* Styles for footer links */
+.footer a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    background-color: black; /* Background color */
+    margin: 0 10px; /* Spacing between links */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Specify custom font */
+}
+
+/* Styles for error message div */
+.errorDiv {
+    position: fixed; /* Fixed position */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the div */
+    height: 30%; /* Set height of error div */
+    width: 80%; /* Set width of error div */
+    background-color: red; /* Set background color */
+    color: black; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    font-size: 18px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+}
+
+/* Styles for error message button */
+.errorDiv button {
+    margin-top: 20px; /* Add margin above the button */
+    padding: 10px 20px; /* Add padding around the button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.errorDiv button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Styles for the table */
+.tableDiv {
+    width: 100%; /* Set table width to 100% */
+    max-height: 100%; /* Set maximum height */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Styles for table rows */
+.tableDiv tr {
+    border-bottom: 1px solid #d31d1d; /* Add bottom border to table rows */
+}
+
+/* Styles for table cells */
+.tableDiv td {
+    text-align: center; /* Center-align content in table cells */
+    border: 1px solid black; /* Add border to table cells */
+}
+
+/* Styles for normal cells */
+#normal {
+    background-color: white; /* Set background color */
+}
+
+/* Styles for semi-prime cells */
+#semi-prime {
+    background-color: darksalmon; /* Set background color */
+}
+
+/* Styles for brilliant cells */
+#brilliant {
+    background-color:grey; /* Set background color */
+}
+
+/* Styles for submit button inside submitButton container */
+#submitButton button {
+    padding: 10px 20px; /* Add padding around the button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: 1px solid transparent; /* Transparent border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+#submitButton button:hover {
+    background-color: black; /* Darker background color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+}
