@@ -1,4 +1,4 @@
-# Semi-Prime-and-Brilliant-Numbers-Calculator
+# Semi-Prime and-Brilliant-Numbers Calculator
 This project is a web application implemented using HTML, CSS, and JavaScript. It provides a user interface for calculating and displaying semi-prime and brilliant numbers dynamically in a table based on user input.
 
 ---
@@ -37,5 +37,5 @@ This project is a web application implemented using HTML, CSS, and JavaScript. I
 ---
 
 **Example:**
-
+![Image Alt Text](https://github.com/Emelloul98/Semi-Prime-and-Brilliant-Numbers-Calculator/blob/main/Example.png)
 ---
