@@ -1,6 +1,8 @@
 # Semi-Prime-and-Brilliant-Numbers-Calculator
 This project is a web application implemented using HTML, CSS, and JavaScript. It provides a user interface for calculating and displaying semi-prime and brilliant numbers dynamically in a table based on user input.
 
+---
+
 **Features:**
 1. Input field for entering a positive integer.
 2. Calculate button to trigger the calculation of semi-prime and brilliant numbers.
@@ -8,6 +10,8 @@ This project is a web application implemented using HTML, CSS, and JavaScript. I
 4. Error handling for invalid input.
 5. External links in the footer for additional information.
 6. Responsive design for different screen sizes.
+
+---
 
 **Components:**
 1. **HTML (`MainPage.html`):**
@@ -22,8 +26,16 @@ This project is a web application implemented using HTML, CSS, and JavaScript. I
    - Functions for semi-prime and brilliant number calculation, checking prime numbers, and handling error messages.
    - Function to return results as a JSON string.
 
+---
+
 **Running the Application:**
 1. Open `MainPage.html` in a web browser.
 2. Enter a positive integer in the input field.
 3. Click the "Calculate" button to see the semi-prime and brilliant numbers displayed in the table.
 4. Check the console for the JSON string representing the results.
+
+---
+
+**Example:**
+
+---
